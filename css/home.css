@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: white;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 70px;
+  margin-top: 19px;
+  width: 1250px;
+}
+header .logo {
+  height: 40px;
+}
+header ul {
+  font-family: "Raleway", sans-serif;
+  font-size: 17px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 390px;
+}
+header ul a {
+  text-decoration: none;
+  color: black;
+}
+
+.bg-deco {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 95vh;
+  z-index: -1;
+}
+
+.bg-plant {
+  position: absolute;
+  z-index: -2;
+  bottom: 0;
+  left: 17.5%;
+  height: 95vh;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+  flex-direction: column;
+}
+main h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 84px;
+  text-align: center;
+  color: black;
+}
+main h1 span {
+  font-weight: 600;
+}
+main h1 .green {
+  color: #588535;
+}
+main a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  margin-top: 150px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 25px;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.5s;
+}
+main a:hover {
+  transform: scale(0.9);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}/*# sourceMappingURL=home.css.map */
