@@ -60,18 +60,17 @@ form label {
   margin-top: 20px;
 }
 form input {
-  width: 60;
+  width: 603px;
   height: 50px;
   border-radius: 20px;
   background-color: transparent;
   border: 1px solid black;
-  padding-left: 40px;
 }
 form textarea {
+  width: 603px;
   border-radius: 20px;
   background-color: transparent;
   border: 1px solid black;
-  width: 603px;
 }
 
 .submit-btn {
